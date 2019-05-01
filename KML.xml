@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+
+  <Style id="polygon_style">
+    <LineStyle>
+      <color>ff000000</color>
+      <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>7FAAAAAA</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+
+  <Placemark>
+    <name>Buckinghamshire New University</name>
+    <description>
+        <![CDATA[
+      <p>TBuckinghamshire New University, styled Bucks New University, is a public university with campuses in High Wycombe, Buckinghamshire, and Uxbridge, Middlesex. The Vice-Chancellor of the University is Professor Nick Braisby. .</p>
+      <p>The institution dates from 1891 when it was founded as the School of Science and Art, and has since that date been re-invented variously as the Wycombe Technical Institute, the High Wycombe College of Technology and Art, and the Buckinghamshire College of Higher Education</p>
+      <img src="/assets/gateway_building.jpg" height="100px" />
+            ]]>
+    </description>
+    <Point>
+      <coordinates>-0.751848,51.627515,0.0</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>High Wycombe</name>
+    <styleUrl>#polygon_style</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -0.753758,51.624665,0.0 
+-0.739424,51.626210,0.0 
+-0.743115,51.633722,0.0 
+-0.756075,51.633403,0.0 
+-0.758908,51.628661,0.0 
+-0.753758,51.624665,0.0 
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
